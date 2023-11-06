@@ -251,8 +251,286 @@ Additional papers other than those mentioned above are included in this subsecti
 [Paper](https://aclanthology.org/2022.sumeval-1.4/) [Data](https://github.com/MicrosoftTranslator/NTREX) 
 
 ### Modeling
+---
+**NOTE**
 
-(Under construction)
+We refer the reader to the papers on massively multilingual models, as these include some aspects of modeling.
+
+Additional papers other than those mentioned above are included in this subsection.
+
+---
+
+#### Vocabulary
+
+* How Robust is Neural Machine Translation to Language Imbalance in Multilingual Tokenizer Training? \
+[Paper](https://aclanthology.org/2022.amta-research.8/)
+
+* Out-of-the-box Universal Romanization Tool uroman \
+[Paper](https://aclanthology.org/P18-4003/)
+
+* The IndicNLP Library \
+[Paper](https://github.com/anoopkunchukuttan/indic_nlp_library/blob/master/docs/indicnlp.pdf)
+[Code](https://github.com/anoopkunchukuttan/indic_nlp_library/tree/master)
+
+* Pre-training via Leveraging Assisting Languages
+for Neural Machine Translation \
+[Paper](https://aclanthology.org/2020.acl-srw.37/) [Code](https://aclanthology.org/attachments/2020.acl-srw.37.Software.zip)
+
+* BPE-Dropout: Simple and Effective Subword Regularization \
+[Paper](https://aclanthology.org/2020.acl-main.170/)
+
+* Efficient Neural Machine Translation for Low-Resource Languages via Exploiting Related Languages \
+[Paper](https://aclanthology.org/2020.acl-srw.22/)
+[Code](https://aclanthology.org/attachments/2020.acl-srw.22.Software.zip)
+
+* Exploiting Language Relatedness for Low Web-Resource Language Model Adaptation: An Indic Languages Study \
+[Paper](https://aclanthology.org/2021.acl-long.105/)
+[Code](https://github.com/yashkhem1/RelateLM)
+
+* Language Relatedness and Lexical Closeness can help Improve Multilingual NMT: IITBombay@MultiIndicNMT WAT2021 \
+[Paper](https://aclanthology.org/2021.wat-1.26)
+
+* Auxiliary Subword Segmentations as Related Languages for Low Resource Multilingual Translation \
+[Paper](https://aclanthology.org/2022.eamt-1.16/)
+
+* Overlap-based Vocabulary Generation Improves Cross-lingual Transfer Among Related Languages \
+[Paper](https://aclanthology.org/2022.acl-long.18/) [Code](https://github.com/vaidehi99/obpe)
+
+* Transfer Learning in Multilingual Neural Machine Translation with Dynamic Vocabulary  
+[Paper](https://aclanthology.org/2018.iwslt-1.8/)
+
+#### Leveraging Ordering Information
+
+* Addressing word-order Divergence in Multilingual Neural Machine Translation for extremely Low Resource Languages
+[Paper](https://aclanthology.org/N19-1387/)
+[Code](https://github.com/anoopkunchukuttan/cfilt_preorder)
+
+* Language Related Issues for Machine Translation between Closely Related South Slavic Languages \
+[Paper](https://aclanthology.org/W16-4806/)
+
+* A Massively Multilingual Analysis of Cross-linguality in Shared Embedding Space \
+[Paper](https://aclanthology.org/2021.emnlp-main.471/)
+[Code](https://github.com/alexjonesnlp/xlanalysis5k)
+
+* Towards a Common Understanding of Contributing Factors for Cross-Lingual Transfer in Multilingual Language Models: A Review \
+[Paper](https://arxiv.org/abs/2305.16768)
+
+* Decomposed Prompting for Machine Translation Between Related Languages using Large Language Models \
+[Paper](https://arxiv.org/abs/2305.13085)
+[Code](https://github.com/ratishsp/decomt)
+
+### Training 
+
+#### Joint Training / Language-Relatedness
+
+* Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism  
+[Paper](https://aclanthology.org/N16-1101/) 
+
+* Multi-Task Learning for Multiple Language Translation  
+[Paper](https://aclanthology.org/P15-1166/)
+
+* Multi-Task Learning for Multiple Language Translation  
+[Paper](https://aclanthology.org/P15-1166/)
+
+* Contact Relatedness can help improve multilingual NMT: Microsoft STCI-MT @ WMT20  
+[Paper](https://aclanthology.org/2020.wmt-1.19/)
+
+* Investigating Multilingual NMT Representations at Scale  
+[Paper](https://aclanthology.org/D19-1167/)
+
+* Enabling Multi-Source Neural Machine Translation By Concatenating Source Sentences In Multiple Languages  
+[Paper](https://aclanthology.org/2017.mtsummit-papers.8/)
+
+* Multilingual Neural Machine Translation with Language Clustering  
+[Paper](https://aclanthology.org/D19-1089/)
+
+* Bridging Linguistic Typology and Multilingual Machine Translation with Multi-View Language Representations  
+[Paper](https://aclanthology.org/2020.emnlp-main.187/)
+[Code](https://github.com/aoncevay/multiview-langrep)
+
+* Delexicalized Cross-lingual Dependency Parsing for Xibe  
+[Paper](https://aclanthology.org/2021.ranlp-1.182/)
+
+* An Empirical Study of Language Relatedness for Transfer Learning in Neural Machine Translation  
+[Paper](https://aclanthology.org/Y17-1038/)
+
+* Efficient Unsupervised NMT for Related Languages with Cross-Lingual Language Models and Fidelity Objectives  
+[Paper](https://aclanthology.org/2021.vardial-1.6/)
+
+* Adapting High-resource NMT Models to Translate Low-resource Related Languages without Parallel Data  
+[Paper](https://aclanthology.org/2021.acl-long.66/)
+
+#### Data Curriculum / Multi-stage training
+
+* Instance Weighting for Neural Machine Translation Domain Adaptation  
+[Paper](https://aclanthology.org/D17-1155/) [Code](https://github.com/wangruinlp/nmt_instance_weighting)
+
+* Exploiting Multilingualism through Multistage Fine-Tuning for Low-Resource Neural Machine Translation  
+[Paper](https://aclanthology.org/D19-1146/)
+
+* Data Selection Curriculum for Neural Machine Translation  
+[Paper](https://aclanthology.org/2022.findings-emnlp.113/)
+
+### Modeling
+
+#### Mixture of Experts
+
+* GShard: Scaling Giant Models with Conditional
+Computation and Automatic Sharding  
+[Paper](https://arxiv.org/abs/2006.16668)
+
+* ST-MoE: Designing Stable and Transferable Sparse Expert Models    
+[Paper](https://arxiv.org/abs/2202.08906) [Code](https://github.com/lucidrains/st-moe-pytorch)
+
+* Towards Understanding Mixture of Experts in Deep Learning  
+[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html) [Code](https://github.com/uclaml/MoE)
+
+* Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference  
+[Paper](https://aclanthology.org/2021.findings-emnlp.304/)
+
+* Universal Neural Machine Translation for
+Extremely Low Resource Languages  
+[Paper](https://aclanthology.org/N18-1032/) [Code](https://github.com/MultiPath/NA-NMT/tree/universal_translation)
+
+* Transfer Learning across Low-Resource, Related Languages for Neural Machine Translation  
+[Paper](https://aclanthology.org/I17-2050/) [Code](https://aclanthology.org/I17-2050/)
+
+#### Decoder-only MT models
+
+* Examining Scaling and Transfer of Language Model Architectures for Machine Translation (LM4MT)  
+[Paper](https://arxiv.org/abs/2202.00528)
+
+* ALMA: Advanced Language Model-based translator  
+[Paper](https://arxiv.org/abs/2309.11674) [Code](https://github.com/fe1ixxu/ALMA)
+
+#### Zero-shot transfer-learning / Adaptation to new languages. 
+
+* Rapid Adaptation of Neural Machine Translation to New Languages \
+[Paper](https://aclanthology.org/D18-1103/) [Code](https://github.com/neubig/rapid-adaptation)
+
+* Improving Zero-Shot Cross-lingual Transfer Between Closely Related Languages by Injecting Character-Level Noise \
+[Paper](https://aclanthology.org/2022.findings-acl.321/)
+
+* Utilizing Lexical Similarity to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages \
+[Paper](https://arxiv.org/abs/2305.05214)
+
+* Improving Zero-Shot Translation by Disentangling Positional Information  
+[Paper](https://aclanthology.org/2021.acl-long.101/) [Code](https://github.com/nlp-dke/NMTGMinor/tree/master/recipes/zero-shot)
+
+* Simple, Scalable Adaptation for Neural Machine Translation
+[Paper](https://aclanthology.org/D19-1165/)
+
+* T-Modules: Translation Modules for Zero-Shot Cross-Modal Machine Translation  
+[Paper](https://aclanthology.org/2022.emnlp-main.391/)
+
+* Parameter Sharing Methods for Multilingual Self-Attentional Translation Models  
+[Paper](https://aclanthology.org/W18-6327/) [Code](https://github.com/DevSinghSachan/multilingual_nmt)
+
+* From Bilingual to Multilingual Neural Machine Translation by Incremental Training  
+[Paper](https://aclanthology.org/P19-2033/)
+
+* Language-Family Adapters for Low-Resource Multilingual Neural Machine Translation  
+[Paper](https://aclanthology.org/2023.loresmt-1.5/)
+
+* Improving Neural Machine Translation of Indigenous Languages with Multilingual Transfer Learning  
+[Paper](https://aclanthology.org/2023.loresmt-1.6/)
+
+### Model Compression
+* Sequence-Level Knowledge Distillation  
+[Paper](https://aclanthology.org/D16-1139/) [Code](https://github.com/harvardnlp/seq2seq-attn)
+
+* Learning both Weights and Connections for Efficient Neural Networks  
+[Paper](https://arxiv.org/abs/1506.02626)
+
+* Memory-efficient NLLB-200: Language-specific Expert Pruning of a Massively Multilingual Machine Translation Model  
+[Paper](https://aclanthology.org/2023.acl-long.198/) [Code](https://github.com/naver/nllb-pruning)
+
+* LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale  
+[Paper](https://arxiv.org/abs/2208.07339) [Code](https://github.com/TimDettmers/bitsandbytes)
+
+* The case for 4-bit precision: k-bit Inference Scaling Laws [Paper](https://arxiv.org/abs/2212.09720)  
+
+* An Empirical Study of Leveraging Knowledge Distillation for Compressing Multilingual Neural Machine Translation Models  
+[Paper](https://aclanthology.org/2023.eamt-1.11/) [Code](https://github.com/VarunGumma/fairseq)
+
+* Multilingual Neural Machine Translation with Language Clustering  
+[Paper](https://aclanthology.org/D19-1089/)
+
+### Evaluation
+
+#### Automatic Evaluation
+
+* Bleu: a Method for Automatic Evaluation of Machine Translation  
+[Paper](https://aclanthology.org/P02-1040/)  
+
+* chrF: character n-gram F-score for automatic MT evaluation  
+[Paper](https://aclanthology.org/W15-3049/)  
+
+* chrF++: words helping character n-grams  
+[Paper](https://aclanthology.org/W17-4770/)  
+
+* A Call for Clarity in Reporting BLEU Scores  
+[Paper](https://www.aclweb.org/anthology/W18-6319) [Code](https://github.com/mjpost/sacrebleu)
+
+* BLEURT: Learning Robust Metrics for Text Generation  
+[Paper](https://arxiv.org/abs/2004.04696)
+[Code](https://github.com/google-research/bleurt)
+
+* Learning Compact Metrics for MT  
+[Paper](https://arxiv.org/abs/2110.06341)
+
+* IndicMT Eval: A Dataset to Meta-Evaluate Machine Translation Metrics for Indian Languages  
+[Paper](https://aclanthology.org/2023.acl-long.795/) [Code](https://github.com/AI4Bharat/IndicMT-Eval)
+
+* COMET: A Neural Framework for MT Evaluation  
+[Paper](https://aclanthology.org/2020.emnlp-main.213/) [Code](https://github.com/Unbabel/COMET)
+
+* Identifying Weaknesses in Machine Translation Metrics Through Minimum Bayes Risk Decoding: A Case Study for COMET  
+[Paper](https://arxiv.org/abs/2202.05148)
+[Code](https://github.com/ZurichNLP/mbr-sensitivity)
+
+* Extrinsic Evaluation of Machine Translation Metrics  
+[Paper](https://aclanthology.org/2023.acl-long.730/)
+
+* Large Language Models Are State-of-the-Art
+Evaluators of Translation Quality  
+[Paper](https://arxiv.org/abs/2302.14520) [Code](https://github.com/MicrosoftTranslator/GEMBA)
+
+* The Devil is in the Errors: Leveraging Large Language Models for Fine-grained Machine Translation Evaluation
+[Paper](https://arxiv.org/abs/2308.07286)
+
+##### Human Evaluation
+
+* Continuous Measurement Scales in Human Evaluation of Machine Translation  
+[Paper](https://aclanthology.org/W13-2305/)
+
+* Is Machine Translation Getting Better over Time?  
+[Paper](https://aclanthology.org/E14-1047/)
+
+* Multidimensional quality metrics: a flexible system for assessing translation quality  
+[Paper](https://aclanthology.org/2013.tc-1.6/)
+
+* Experts, Errors, and Context: A Large-Scale Study of Human Evaluation for Machine Translation  
+[Paper](https://aclanthology.org/2021.tacl-1.87/) [Code](https://github.com/google/wmt-mqm-human-evaluation)
+
+* SemEval-2016 Task 1: Semantic Textual Similarity, Monolingual and Cross-Lingual Evaluation  
+[Paper](https://aclanthology.org/S16-1081/)
+
+* Consistent Human Evaluation of Machine Translation across Language Pairs  
+[Paper](https://aclanthology.org/2022.amta-research.24/)
+
+
+### Toolkits
+* [FairseqV1](https://github.com/facebookresearch/fairseq)
+* [FairseqV2](https://github.com/facebookresearch/fairseq2)
+* [Transformers](https://github.com/huggingface/transformers/)
+* [tensor2tensor](https://github.com/tensorflow/tensor2tensor)
+* [trax](https://github.com/google/trax)
+* [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
+* [MarianNMT](https://github.com/marian-nmt/marian)
+* [JoeyNMT](https://github.com/joeynmt/joeynmt)
+* [Sockeye](https://github.com/awslabs/sockeye)
+* [YANMTT](https://github.com/prajdabre/yanmtt)
 
 ## Citation
 ```bash
