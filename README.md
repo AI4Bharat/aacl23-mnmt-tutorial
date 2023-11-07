@@ -1,6 +1,6 @@
 # aacl23-mnmt-tutorial
 
-[📘 slides](https://docs.google.com/presentation/d/1BW9N9Fi8X9QQYB_DmyjHm2w-0idKlfuydH3eswgpIqs) | [▶️ Recording]()
+[📘 slides](https://docs.google.com/presentation/d/1BW9N9Fi8X9QQYB_DmyjHm2w-0idKlfuydH3eswgpIqs) | [▶️ Recording](https://youtu.be/bkmrlcWvBQM)
 
 ## Reading List
 
