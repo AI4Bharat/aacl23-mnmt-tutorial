@@ -200,6 +200,9 @@ Additional papers other than those mentioned above are included in this subsecti
 * Language-agnostic BERT Sentence Embedding \
 [Paper](https://aclanthology.org/2020.emnlp-main.480/) [Code](https://github.com/UKPLab/sentence-transformers)
 
+* LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with Knowledge Distillation \
+[Paper](https://aclanthology.org/2023.eacl-main.138/) [Code](https://tfhub.dev/google/collections/LEALLA/1)
+
 * Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond \
 (LASER1) \
 [Paper](https://aclanthology.org/Q19-1038/) [Code](https://github.com/facebookresearch/LASER)
@@ -319,6 +322,9 @@ for Neural Machine Translation \
 [Paper](https://arxiv.org/abs/2305.13085)
 [Code](https://github.com/ratishsp/decomt)
 
+* JASS: Japanese-specific Sequence to Sequence Pre-training for Neural Machine Translation \
+[Paper](https://aclanthology.org/2020.lrec-1.454/) [Code](https://github.com/Mao-KU/JASS)
+
 ### Training 
 
 #### Joint Training / Language-Relatedness
@@ -359,6 +365,9 @@ for Neural Machine Translation \
 
 * Adapting High-resource NMT Models to Translate Low-resource Related Languages without Parallel Data  
 [Paper](https://aclanthology.org/2021.acl-long.66/)
+
+* Linguistically-driven Multi-task Pre-training for Low-resource Neural Machine Translation \
+[Paper](https://arxiv.org/abs/2201.08070) [Code](https://github.com/Mao-KU/JASS/tree/master/linguistically-driven-pretraining)
 
 #### Data Curriculum / Multi-stage training
 
